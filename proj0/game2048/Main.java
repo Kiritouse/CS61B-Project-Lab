@@ -4,9 +4,7 @@ import java.util.Random;
 
 import ucb.util.CommandArgs;
 
-/** The main class for the 2048 game.
- *  @author P. N. Hilfinger
- */
+
 public class Main {
 
     /** Number of squares on the side of a board. */
@@ -17,7 +15,7 @@ public class Main {
     /** The main program.  ARGS may contain the options --seed=NUM,
      *  (random seed); --log (record moves and random tiles
      *  selected.). */
-    public static void main(String... args) {
+    public static void main(String [] args) {
         CommandArgs options =
             new CommandArgs("--seed=(\\d+) --log=(.+)",
                             args);
@@ -56,6 +54,7 @@ public class Main {
         }
 
         System.exit(0);
+        
     }
 
 }
