@@ -1,8 +1,12 @@
 {
     "java.project.referencedLibraries": [
+<<<<<<< HEAD
         "lib/**/*.jar",
         "javalib\\hamcrest-core-1.3.jar",
         "javalib\\junit-4.12.jar",
         "javalib\\ucb.jar"
+=======
+        "./game2048/javalib/*.jar",
+>>>>>>> 574fc7a5f9f78f97653d33ba2e55f945914d2ec4
     ]
 }
